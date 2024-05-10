@@ -11,7 +11,8 @@ mydb = pymysql.connect(
 
 mycursor = mydb.cursor()
 
-mycursor.execute("SELECT * FROM igredient")
 
-for x in mycursor:
-    print(x)
+def registration(password,name):
+    mycursor.execute(f"INSERT INTO userdata (name,password) VALUES({name},{password}")
+
+c = registration("12345pupup","Papapem",)
