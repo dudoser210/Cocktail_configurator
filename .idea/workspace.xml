@@ -4,31 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="720828d9-9611-40a9-a594-1ad9d195a82a" name="Changes" comment="">
-<<<<<<< HEAD
+    <list default="true" id="efb5e693-1e17-4a70-bf21-d1e2c5d6a8a3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/bd.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/bd.py" afterDir="false" />
-=======
-bd
-      <change afterPath="$PROJECT_DIR$/package/bd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/cocktail-configurator.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/cocktail-configurator.py" afterDir="false" />
-main
->>>>>>> 362c906c52dc13670b97f573dcf84e3818626002
+      <change beforePath="$PROJECT_DIR$/package/Front/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/package/Front/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package/local_host/cgi-bin/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Front/cgi-bin/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package/local_host/cgi-bin/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Front/cgi-bin/hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package/local_host/cgi-bin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/package/local_host/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package/local_host/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/Front/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,62 +24,31 @@ main
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 1
+  &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2YLorh9iWS4Gtq1m9yKTJ1d40Wd" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2gSYimXQFautRSpoIlIsD2oSxJW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.test.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;bd&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/vanai/Documents/GitHub/Cocktail_configurator/package/bd.py&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-=======
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-bd
-
-    "Python.cocktail-configurator.executor": "Run",
-main
-    "Python.test.1.executor": "Run",
-    "Python.test.executor": "Run",
+    "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-bd
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/vanai/Documents/GitHub/Cocktail_configurator/package/bd.py",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-
-    "git-widget-placeholder": "test",
-main
-    "vue.rearranger.settings.migration": "true"
->>>>>>> 362c906c52dc13670b97f573dcf84e3818626002
+    "git-widget-placeholder": "123"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\OneDrive\Рабочий стол\py\Cocktail_configurator\package\Front" />
+      <recent name="C:\Users\User\OneDrive\Рабочий стол\py\Cocktail_configurator\package\local_host" />
+    </key>
+  </component>
   <component name="RunManager">
-bd
-    <configuration name="утютю" type="PythonConfigurationType" factoryName="Python">
-      <module name="Cocktail_configurator" />
-
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,13 +56,12 @@ bd
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.11 (pythonTest)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,26 +70,49 @@ bd
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test.1" type="PythonConfigurationType" factoryName="Python">
+    <configuration default="true" type="Tox" factoryName="Tox">
       <option name="ENV_FILES" value="" />
-main
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/package/bd.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -147,18 +126,12 @@ main
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="720828d9-9611-40a9-a594-1ad9d195a82a" name="Changes" comment="" />
-      <created>1700314440091</created>
+      <changelist id="efb5e693-1e17-4a70-bf21-d1e2c5d6a8a3" name="Changes" comment="" />
+      <created>1715692583783</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1700314440091</updated>
-      <workItem from="1700314454708" duration="31000" />
-      <workItem from="1700314651606" duration="215000" />
-      <workItem from="1700426280436" duration="26000" />
+      <updated>1715692583783</updated>
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
 </project>
