@@ -11,8 +11,9 @@ mydb = pymysql.connect(
 
 mycursor = mydb.cursor()
 
-
-def registration(password,name):
-    mycursor.execute(f"INSERT INTO userdata (name,password) VALUES({name},{password}")
-
-c = registration("12345pupup","Papapem",)
+def reg(name, password):
+    with mydb.cursor() as cursor:
+        insert_query = f"INSERT INTO userdata (nickname, password) VALUES ('{name}', '{password}');"
+        cursor.execute(insert_query)
+        mydb.commit()
+c = reg('ututut','3uy3y3y3')
