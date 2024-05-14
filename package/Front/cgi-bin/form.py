@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import cgi
+from bd import reg
 
 form = cgi.FieldStorage()
 text1 = form.getfirst("name", "не задано")
@@ -20,3 +21,5 @@ print("<p>TEXT_2: {}</p>".format(text2))
 
 print("""</body>
         </html>""")
+
+registration = reg(f"{text1}",f"{text2}")

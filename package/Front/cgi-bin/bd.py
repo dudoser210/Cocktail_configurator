@@ -17,14 +17,14 @@ def reg(name, password):
         cursor.execute(search_name)
         check_name = cursor.fetchall()
         mydb.commit()
-        if len(str(check_name).split("'"))//3 == 0:
+        print(check_name)
+        if check_name != ():
                 return print("Такое имя занято")
         else:
             insert_query = f"INSERT INTO userdata (nickname, password) VALUES ('{name}', '{password}');"
             cursor.execute(insert_query)
             mydb.commit()
-
-с = reg("Papapem","qwertyuio")
+c = reg("Anna","wrw")
 
 def enter(name,password):
     with mydb.cursor() as cursor:
