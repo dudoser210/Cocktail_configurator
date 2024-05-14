@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import cgi
-from bd import reg
+from package.bd import reg
 
 form = cgi.FieldStorage()
 text1 = form.getfirst("name", "не задано")
