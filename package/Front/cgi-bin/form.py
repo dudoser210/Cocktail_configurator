@@ -2,8 +2,8 @@
 import cgi
 
 form = cgi.FieldStorage()
-text1 = form.getfirst("TEXT_1", "не задано")
-text2 = form.getfirst("TEXT_2", "не задано")
+text1 = form.getfirst("name", "не задано")
+text2 = form.getfirst("password", "не задано")
 
 print("Content-type: text/html\n")
 print("""<!DOCTYPE HTML>
