@@ -13,10 +13,18 @@ mycursor = mydb.cursor()
 
 def reg(name, password):
     with mydb.cursor() as cursor:
-        insert_query = f"INSERT INTO userdata (nickname, password) VALUES ('{name}', '{password}');"
-        cursor.execute(insert_query)
+        search_name = f"select nickname from userdata where nickname = '{name}'"
+        cursor.execute(search_name)
+        check_name = cursor.fetchall()
         mydb.commit()
+        if len(str(check_name).split("'"))//3 == 0:
+                return print("Такое имя занято")
+        else:
+            insert_query = f"INSERT INTO userdata (nickname, password) VALUES ('{name}', '{password}');"
+            cursor.execute(insert_query)
+            mydb.commit()
 
+с = reg("Papapem","qwertyuio")
 
 def enter(name,password):
     with mydb.cursor() as cursor:
@@ -39,4 +47,7 @@ def search_coctail_name():
     pass
 
 def search_coctail_ingredients():
+    pass
+
+def top_drinks():
     pass
