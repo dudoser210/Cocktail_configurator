@@ -17,14 +17,13 @@ def reg(name, password):
         cursor.execute(search_name)
         check_name = cursor.fetchall()
         mydb.commit()
-        if len(str(check_name).split("'"))//3 == 0:
+        if check_name != ():
                 return print("Такое имя занято")
         else:
             insert_query = f"INSERT INTO userdata (nickname, password) VALUES ('{name}', '{password}');"
             cursor.execute(insert_query)
             mydb.commit()
 
-с = reg("Papapem","qwertyuio")
 
 def enter(name,password):
     with mydb.cursor() as cursor:
@@ -37,8 +36,28 @@ def enter(name,password):
         else:
             return False
 
-def create_coctail():
-    pass
+def create_coctail(name,auther,ingredient_list,alcohol):
+    with mydb.cursor() as cursor:
+        search_name = f"select name from cocteildata where name = '{name}'"
+        cursor.execute(search_name)
+        check_name = cursor.fetchall()
+        mydb.commit()
+        if check_name != ():
+                return print("Такое название занято")
+        else:
+            insert_query = f"INSERT INTO cocteildata (name, author, alcohol ) VALUES ('{name}', '{auther}', '{alcohol}');"
+            cursor.execute(insert_query)
+            mydb.commit()
+            searach_cocteil_id = f"select MAX(id) from cocteildata"
+            cursor.execute(searach_cocteil_id)
+            searach_cocteil_id = cursor.fetchall()
+            mydb.commit()
+            searach_cocteil_id = str(searach_cocteil_id).split(" ")[1].split("}")[0]
+            for i in range(len(ingredient_list)):
+                insert_inredients = f"insert into ingredients_in_cockteil ( coctail_id, ingredient_id) Values ('{searach_cocteil_id}','{ingredient_list[i]}')"
+                cursor.execute(insert_inredients)
+                mydb.commit()
+
 
 def search_ingrideents():
     pass
@@ -51,3 +70,4 @@ def search_coctail_ingredients():
 
 def top_drinks():
     pass
+
