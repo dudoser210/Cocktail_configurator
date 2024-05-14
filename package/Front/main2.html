@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="candy_icon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  <link rel="stylesheet" href="css/buttons/note_style.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/style_main2.css">
+  <title>ConfiDrinks - сделай сам и насладись!</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__top-list">
+          <a class="header__logo logo" href="#">
+            <img src="files/logo.svg" alt="logo">
+          </a>
+          <div class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="coctails_make.html">Создай коктейль сам</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="search_of_ingrid.html">Поиск по ингредиентам</a>
+              </li>
+            </ul>
+          </div>
+          <div class="header__user-nav">
+            <div class="header__user-profile">
+              <a href="registration.html">
+                <img src="files/profile.svg" alt="profile">
+              </a>
+            </div>
+          </div>
+        </div>
+        <span id="bot_span"></span>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div id="line__horizont-up">
+        </div>
+        <div class="main__block">
+          <aside class="main__search">
+            <div id="line__horizont-bottom">
+            </div>
+            <div class="main__search-block">
+              <div class="main_search-search">
+                <label>Какой коктейль ищешь? :</label>
+                <input type="text" id="search">
+              </div>
+              
+              <ul class="search-results"></ul>
+            </div>
+          </aside>
+          <article class="main__article">
+            <div class="main__list">
+              <a class="main__list-blocks" href="#">
+                <div class="main__list-coctails">
+                  <h1>Название</h1>
+                  <h2>Описание</h2>
+                  <h3>Список ингридиентов</h3>
+                  <div class="list__likes">
+                    <button class="list__likes-button">👍</button>
+                    <span class="list__likes-count">0</span>
+                  </div>
+                  <div class="list__note">
+                    <label class="ui-bookmark">
+                      <input type="checkbox">
+                      <div class="bookmark">
+                        <svg viewBox="0 0 32 32">
+                          <g>
+                            <path d="M27 4v27a1 1 0 0 1-1.625.781L16 24.281l-9.375 7.5A1 1 0 0 1 5 31V4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4z"></path>
+                          </g>
+                        </svg>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+              </a>
+              <a class="main__list-blocks" href="#">
+                <div class="main__list-coctails">
+                  <h1>Название</h1>
+                  <h2>Описание</h2>
+                  <h3>Список ингридеинтов</h3>
+                  <span class="like_span"></span>
+                </div>
+              </a>
+              <a class="main__list-blocks" href="#">
+                <div class="main__list-coctails">
+                  <h1>Название</h1>
+                  <h2>Описание</h2>
+                  <h3>Список ингридеинтов</h3>
+                  <span class="like_span"></span>
+                </div>
+              </a>
+              <a class="main__list-blocks" href="#">
+                <div class="main__list-coctails">
+                  <h1>Название</h1>
+                  <h2>Описание</h2>
+                  <h3>Список ингридеинтов</h3>
+                  <span class="like_span"></span>
+                </div>
+              </a>
+              <a class="main__list-blocks" href="#">
+                <div class="main__list-coctails">
+                  <h1>Название</h1>
+                  <h2>Описание</h2>
+                  <h3>Список ингридеинтов</h3>
+                  <span class="like_span"></span>
+                </div>
+              </a>
+              <a class="main__list-blocks" href="#">
+                <div class="main__list-coctails">
+                  <h1>Название</h1>
+                  <h2>Описание</h2>
+                  <h3>Список ингридеинтов</h3>
+                  <span class="like_span"></span>
+                </div>
+              </a>
+              <a class="main__list-blocks" href="#">
+                <div class="main__list-coctails">
+                  <h1>Название</h1>
+                  <h2>Описание</h2>
+                  <h3>Список ингридеинтов</h3>
+                  <span class="like_span"></span>
+                </div>
+              </a>
+              <a class="main__list-blocks" href="#">
+                <div class="main__list-coctails">
+                  <h1>Название</h1>
+                  <h2>Описание</h2>
+                  <h3>Список ингридеинтов</h3>
+                  <span class="like_span"></span>
+                </div>
+              </a>
+            </div>
+          </article>
+        </div>
+    </main>
+    <footer class="footer">
+      <div class="container" id="cont_foot">
+        <div class="footer_main">
+          Информация о нас
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/coctails_like.js"></script>
+<script src="js/main_search_ingridientslist.js"></script>
+
+</html>
