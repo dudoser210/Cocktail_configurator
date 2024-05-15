@@ -81,13 +81,60 @@ def ingredient_id_by_name(name):
         mydb.commit()
     return str(name_id).split(" ")[1].split("}")[0]
 
-def search_ingrideents():
-    pass
+def acount_name_by_id(id):
+    with mydb.cursor() as cursor:
+        id_name = f"select nickname from userdata where id = '{id}'"
+        cursor.execute(id_name)
+        id_name = cursor.fetchall()
+        mydb.commit()
+    return str(id_name).split(" ")[1].split("}")[0]
 
-def search_coctail_name():
-    pass
+def cocteil_name_by_id(id):
+    with mydb.cursor() as cursor:
+        id_name = f"select name from cocteildata where id = '{id}'"
+        cursor.execute(id_name)
+        id_name = cursor.fetchall()
+        mydb.commit()
+    return str(id_name).split(" ")[1].split("}")[0]
+
+def ingredient_name_by_id(id):
+    with mydb.cursor() as cursor:
+        id_name = f"select name from igredient where id = '{id}'"
+        cursor.execute(id_name)
+        id_name = cursor.fetchall()
+        mydb.commit()
+    return str(id_name).split(" ")[1].split("}")[0]
+
+def search_ingrideents(name):
+    with mydb.cursor() as cursor:
+        search_ings = f"select id from igredient where name like'{name}%'"
+        cursor.execute(search_ings)
+        search_ings = cursor.fetchall()
+        mydb.commit()
+        ingredinets = []
+        for i in range(len(search_ings)):
+            ing = str(search_ings[i]).split(" ")[1].split("}")[0]
+            ingredinets.append(ing)
+        return ingredinets
+
+
+def search_coctail_name(name):
+    with mydb.cursor() as cursor:
+        search_coc = f"select id from cocteildata where name like'{name}%'"
+        cursor.execute(search_coc)
+        search_coc = cursor.fetchall()
+        mydb.commit()
+        cocteils = []
+        for i in range(len(search_coc)):
+            ing = str(search_coc[i]).split(" ")[1].split("}")[0]
+            cocteils.append(ing)
+        return cocteils
+
 
 def search_coctail_ingredients():
+    pass
+
+def add_like():
     pass
 
 def top_drinks():
