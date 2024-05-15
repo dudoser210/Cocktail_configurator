@@ -24,7 +24,6 @@ def reg(name, password):
             cursor.execute(insert_query)
             mydb.commit()
 
-
 def enter(name,password):
     with mydb.cursor() as cursor:
         insert_query = f"select password from userdata where nickname = '{name}'"
