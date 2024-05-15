@@ -27,6 +27,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< Updated upstream
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.main.executor": "Run",
@@ -34,8 +35,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/david/Documents/GitHub/Cocktail_configurator"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;123&quot;
+>>>>>>> Stashed changes
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\OneDrive\Рабочий стол\py\Cocktail_configurator\package\Front" />
