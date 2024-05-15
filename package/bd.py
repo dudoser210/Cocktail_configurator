@@ -58,6 +58,29 @@ def create_coctail(name,auther,ingredient_list,alcohol):
                 cursor.execute(insert_inredients)
                 mydb.commit()
 
+def acount_id_by_name(name):
+    with mydb.cursor() as cursor:
+        name_id = f"select id from userdata where nickname = '{name}'"
+        cursor.execute(name_id)
+        name_id = cursor.fetchall()
+        mydb.commit()
+    return str(name_id).split(" ")[1].split("}")[0]
+
+def coctail_id_by_name(name):
+    with mydb.cursor() as cursor:
+        name_id = f"select id from cocteildata where name = '{name}'"
+        cursor.execute(name_id)
+        name_id = cursor.fetchall()
+        mydb.commit()
+    return str(name_id).split(" ")[1].split("}")[0]
+
+def ingredient_id_by_name(name):
+    with mydb.cursor() as cursor:
+        name_id = f"select id from igredient where name = '{name}'"
+        cursor.execute(name_id)
+        name_id = cursor.fetchall()
+        mydb.commit()
+    return str(name_id).split(" ")[1].split("}")[0]
 
 def search_ingrideents():
     pass
